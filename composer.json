@@ -1,0 +1,18 @@
+{
+    "name": "verse/modular",
+    "description": "Verse Modular is a micro framework for developing modular pipelines of code execution.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Denisov Mikhail",
+            "email": "manwebdev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Verse\\Modular\\": "src/Verse/Modular"}
+    },
+    "require": {
+        "php": ">=5.5"
+    }
+}
