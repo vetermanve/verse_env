@@ -12,7 +12,7 @@ class Env
     /**
      * @return ContainerInterface
      */
-    public static function getContainer() : ContainerInterface
+    public static function getContainer()
     {
         return self::$container;
     }

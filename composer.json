@@ -1,6 +1,6 @@
 {
-    "name": "verse/modular",
-    "description": "Verse Modular is a micro framework for developing modular pipelines of code execution.",
+    "name": "verse/env",
+    "description": "Simple Dependency Container for Verse Framework",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Verse\\Modular\\": "src/Verse/Modular"}
+        "psr-4": {"Verse\\Di\\": "src/Verse/Di"}
     },
     "require": {
         "php": ">=5.5"
